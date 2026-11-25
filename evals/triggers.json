@@ -1,0 +1,11 @@
+{
+  "skill": "shouban-wajue",
+  "test_cases": [
+    {"input": "首板挖掘", "should_trigger": true},
+    {"input": "明天买哪只首板", "should_trigger": true},
+    {"input": "挖掘首板候选", "should_trigger": true},
+    {"input": "超短首板怎么选", "should_trigger": true},
+    {"input": "帮我分析一下宁德时代的基本面", "should_trigger": false},
+    {"input": "今天天气怎么样", "should_trigger": false}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "shouban-wajue",
+  "test_cases": [
+    {
+      "name": "screen_tomorrow_first_board",
+      "input": "按首板挖掘方法筛选明天早上最可能买的一只股票",
+      "assertions": ["输出主线定性", "给出具体候选股票", "说明竞价确认条件", "强调风险"]
+    },
+    {
+      "name": "explain_scoring",
+      "input": "首板挖掘的打分表怎么用",
+      "assertions": ["展示打分表", "说明≥75分优先", "提及弱转强优先"]
+    },
+    {
+      "name": "weak_to_strong_filter",
+      "input": "帮我从今天炸板股里找明天可能弱转强的首板",
+      "assertions": ["检查昨日形态", "关注竞价不低开", "要求板块配合"]
+    }
+  ]
+}
